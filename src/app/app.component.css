@@ -1,0 +1,12 @@
+nz-header {
+  height: 74px;
+  letter-spacing: .3px;
+}
+
+.ant-layout-header {
+  background: #1976d2;
+  padding: 0 42px 0 0;
+}
+.ant-layout-footer{
+  background-color: #1976d2;
+}

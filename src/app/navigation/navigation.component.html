@@ -1,0 +1,39 @@
+<div nz-row class="nav-big">
+  <div nz-col nzSpan="18">
+    <div class="navigation">
+      <div class="logo">
+        <a [routerLink]="['home']"><img src="../assets/img/logo-nav.png"></a>
+      </div>
+      <ul nz-menu [nzMode]="'horizontal'" class="nav-menu">
+        <li nz-menu-item><a [routerLink]="['']">特性</a></li>
+        <li nz-menu-item><a [routerLink]="['']">文档</a></li>
+        <li nz-menu-item><a [routerLink]="['']">资源</a></li>
+        <li nz-menu-item><a [routerLink]="['']">会议</a></li>
+        <li nz-menu-item><a href="https://blog.angular.io/">博客</a></li>
+        <li nz-menu-item><a [routerLink]="['']">关于中文版</a></li>
+      </ul>
+    </div>
+  </div>
+  <div nz-col nzSpan="6">
+    <div nz-row>
+      <div class="nav-right-search" nz-col [nzSpan]="18">
+        <input nz-input placeholder="搜索" nzSize="large">
+      </div>
+      <div class="nav-right-icon" nz-col [nzSpan]="2">
+        <ul nz-menu [nzMode]="'horizontal'">
+          <li nz-menu-item>
+            <a href="https://twitter.com/angular" title="Twitter">
+              <img src="../assets/img/twitter-icon.svg" class="nav-right-icon">
+            </a>
+          </li>
+          <li nz-menu-item>
+            <a href="https://github.com/angular/angular" title="GitHub">
+              <img src="../assets/img/github-icon.svg" class="nav-right-icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

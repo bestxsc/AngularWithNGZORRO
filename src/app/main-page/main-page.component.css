@@ -1,0 +1,52 @@
+.angularIcon {
+  width: 400px;
+  heigtht: 400px;
+}
+
+h1 {
+  color: white;
+}
+
+.angularConnect {
+  width: 104px;
+  height: 60px;
+}
+
+h2 {
+  padding-top: 0em;
+}
+
+.paddingText {
+  padding-top: 10em;
+}
+
+.background-sky {
+  background-color: #1976d2;
+  background: linear-gradient(145deg, #0d47a1, #42a5f5);
+  color: #fff;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  min-height: 480px;
+  height: 80vh;
+  max-height: 500px;
+  box-sizing: border-box;
+  padding: 48px 48px 32px;
+  overflow: hidden;
+  -webkit-transform: skewY(8deg);
+  -moz-transform: skewY(8deg);
+  -ms-transform: skewY(8deg);
+  -o-transform: skewY(8deg);
+  transform: skewY(8deg);
+  -webkit-transform-origin: 100%;
+  -moz-transform-origin: 100%;
+  -ms-transform-origin: 100%;
+  -o-transform-origin: 100%;
+  transform-origin: 100%;
+}
