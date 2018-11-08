@@ -19,6 +19,8 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import { MettingPageComponent } from './metting-page/metting-page.component';
 import { MettingPageContentComponent } from './metting-page-content/metting-page-content.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { DocumentPageComponent } from './document-page/document-page.component';
+import { DocumentDrawerComponent } from './document-drawer/document-drawer.component';
 
 registerLocaleData(zh);
 
@@ -26,7 +28,9 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: MainPageComponent },
   { path: 'metting', component: MettingPageComponent },
-  { path: 'about', component: AboutPageComponent}
+  { path: 'about', component: AboutPageComponent},
+  { path: 'document', component: DocumentPageComponent}
+
 ];
 
 @NgModule({
@@ -41,6 +45,8 @@ const routes: Routes = [
     MettingPageComponent,
     MettingPageContentComponent,
     AboutPageComponent,
+    DocumentPageComponent,
+    DocumentDrawerComponent,
   ],
   imports: [
     BrowserModule,
