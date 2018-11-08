@@ -25,6 +25,8 @@ import { ArticleComponent } from './articlelist/article/article.component';
 import { FeatureComponent } from './feature/feature.component';
 
 import { SourceComponent } from './source/source.component';
+import {DocumentPageComponent} from './document-page/document-page.component';
+import {DocumentDrawerComponent} from './document-drawer/document-drawer.component';
 
 registerLocaleData(zh);
 
@@ -33,7 +35,7 @@ const routes: Routes = [
   { path: 'home', component: MainPageComponent },
   { path: 'metting', component: MettingPageComponent },
   { path: 'about', component: AboutPageComponent},
-
+  { path: 'document', component: DocumentPageComponent},
   { path: 'feature', component: FeatureComponent},
   { path: 'source',component: SourceComponent}
 
@@ -56,6 +58,8 @@ const routes: Routes = [
     ArticleComponent,
     FeatureComponent,
     SourceComponent,
+    DocumentDrawerComponent,
+    DocumentPageComponent
   ],
   imports: [
     BrowserModule,
