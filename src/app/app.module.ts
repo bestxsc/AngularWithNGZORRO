@@ -24,6 +24,8 @@ import { TitleComponent } from './title/title.component';
 import { ArticleComponent } from './articlelist/article/article.component';
 import { FeatureComponent } from './feature/feature.component';
 
+import { SourceComponent } from './source/source.component';
+
 registerLocaleData(zh);
 
 const routes: Routes = [
@@ -31,8 +33,10 @@ const routes: Routes = [
   { path: 'home', component: MainPageComponent },
   { path: 'metting', component: MettingPageComponent },
   { path: 'about', component: AboutPageComponent},
+
   { path: 'feature', component: FeatureComponent},
-  
+  { path: 'source',component: SourceComponent}
+
 ];
 
 @NgModule({
@@ -51,6 +55,7 @@ const routes: Routes = [
     TitleComponent,
     ArticleComponent,
     FeatureComponent,
+    SourceComponent,
   ],
   imports: [
     BrowserModule,
