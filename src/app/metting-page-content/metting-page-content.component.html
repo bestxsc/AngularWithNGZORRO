@@ -1,3 +1,56 @@
-<p>
-  metting-page-content works!
-</p>
+<div class="big">
+  <p>我们将出现在哪里：</p>
+  <nz-table
+    class="table"
+    [nzBordered]="false"
+    [nzData]="futureItems"
+    [nzShowPagination]="false">
+    <thead class="title">
+    <th>活动</th>
+    <th>地点</th>
+    <th>日期</th>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of futureItems">
+      <th>
+        <a href="{{ item.url }}">{{ item.event }}</a>
+      </th>
+      <td>
+          {{ item.location }}
+      </td>
+      <td>
+          {{ item.date }}
+      </td>
+    </tr>
+    </tbody>
+  </nz-table>
+
+  <p>Where we already presented:</p>
+  <nz-table
+    class="table"
+    #borderedTable
+    nzBordered
+    [nzBordered]="false"
+    [nzData]="alreadyItems"
+    [nzShowPagination]="false"
+  >
+    <thead class="title">
+    <th>EVENT</th>
+    <th>LOCATION</th>
+    <th>DATE</th>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of alreadyItems">
+      <th>
+        <a href="{{ item.url }}">{{ item.event }}</a>
+      </th>
+      <td>
+          {{ item.location }}
+      </td>
+      <td>
+          {{ item.date }}
+      </td>
+    </tr>
+    </tbody>
+  </nz-table>
+</div>
