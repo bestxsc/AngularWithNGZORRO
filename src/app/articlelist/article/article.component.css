@@ -1,0 +1,56 @@
+.art {
+    margin: 0 0 32px;
+    text-align: center;
+    margin: 16px;
+}
+
+.art-tit{
+    text-align: center;
+    margin: 16px;
+}
+
+.art-mtitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1976d2;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin: 16px;
+}
+
+.art .art-contents{
+    margin-top: 0px;
+    margin-right: 16px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.art-small{
+    max-width: 300px;
+    margin: 0 16px;
+    margin:0 auto;
+}
+
+.art-ntitle{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 8px 0;
+    clear: both;
+    color: rgba(0,0,0,.87);
+}
+
+.art-con{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
