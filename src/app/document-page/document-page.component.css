@@ -1,0 +1,36 @@
+.mandi{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.mandi h1 {
+  float:left;
+  margin-top: 2%;
+}
+
+.iicon {
+  float:right;
+  margin-top: 5%;
+}
+
+.cardl{
+  width:30%;
+  float: left;
+  display:inline-block;
+  margin-right: 33px;
+}
+
+.cardm{
+  width:30%;
+  float: left;
+  display:inline-block;
+  margin-right: 33px;
+}
+
+.cardr{
+  width:30%;
+  float: left;
+  display:inline-block;
+  margin-right: 33px;
+}
