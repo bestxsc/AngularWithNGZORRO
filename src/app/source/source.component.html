@@ -1,0 +1,42 @@
+<div class="content">
+  <div class="header">
+    <h1>浏览 Angular 相关资源</h1>
+  </div>
+  <div class="article">
+    <div class="flex-column" nz-row>
+      <div class="artticle-continer" nz-col nzSpan="20">
+        <div class="header2"> 
+          <h2>开发</h2>
+          <div class="shodow-1">
+            <div class="h3-title" *ngFor="let Module of Modules1">
+              <div class="h3-bg">
+              <h2>{{ Module.TITLE }}</h2>
+            </div>
+                <nz-card [nzBordered]="true" [nzHoverable]="true" *ngFor="let article of Module.articles">
+                   <h2>{{ article.title }}</h2>
+                   <p>{{ article.content }}</p>
+                  </nz-card>
+            </div>
+          </div>
+        </div>
+        <div class="header2">
+          <h2>教育</h2>
+          <div class="shodow-1">
+            <div class="h3-title" *ngFor="let Module of Modules2">
+              <div class="h3-bg">
+              <h2>{{ Module.TITLE }}</h2>
+            </div>
+                <nz-card [nzBordered]="true" [nzHoverable]="true" *ngFor="let article of Module.articles">
+                   <h2>{{ article.title }}</h2>
+                   <p>{{ article.content }}</p>
+                  </nz-card>
+            </div>
+          </div>
+        </div>
+        <div class="header2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
