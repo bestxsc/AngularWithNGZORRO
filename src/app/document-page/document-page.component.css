@@ -14,6 +14,22 @@
   margin-top: 5%;
 }
 
+.card {
+
+}
+
+.card :hover h2{
+  color: #2b85e7;
+}
+
+.card :hover h4{
+  color: #2b85e7;
+}
+
+.card h4 {
+  text-align: right;
+}
+
 .cardl{
   width:30%;
   float: left;
@@ -33,4 +49,9 @@
   float: left;
   display:inline-block;
   margin-right: 33px;
+}
+
+.cardx {
+  text-align: center;
+  height: 120px;
 }
