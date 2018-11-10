@@ -1,5 +1,5 @@
-<button nz-button nzType="primary" (click)="open()">Open</button>
-
+<button nz-button nzType="primary" (click)="open()" class="menu-button">Menu</button>
+<!--<app-document-button></app-document-button>-->
 <nz-drawer [nzClosable]="false" [nzVisible]="visible" [nzPlacement]="placement" (nzOnClose)="close()">
   <app-document-drawer></app-document-drawer>
 </nz-drawer>

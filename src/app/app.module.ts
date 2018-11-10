@@ -37,7 +37,7 @@ const routes: Routes = [
   { path: 'about', component: AboutPageComponent},
   { path: 'document', component: DocumentPageComponent},
   { path: 'feature', component: FeatureComponent},
-  { path: 'source',component: SourceComponent}
+  { path: 'source', component: SourceComponent}
 
 ];
 
