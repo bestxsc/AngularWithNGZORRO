@@ -53,5 +53,9 @@
 .artl-art{
     margin:0 auto;
     padding: 0 3rem;
-    width:1200px;
+}
+
+.artl-art1{
+    display: flex;
+    justify-content: center;
 }

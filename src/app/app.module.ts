@@ -19,9 +19,9 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import { MettingPageComponent } from './metting-page/metting-page.component';
 import { MettingPageContentComponent } from './metting-page-content/metting-page-content.component';
 import { AboutPageComponent } from './about-page/about-page.component';
-import { ArticlelistComponent } from './articlelist/articlelist.component';
-import { TitleComponent } from './title/title.component';
-import { ArticleComponent } from './articlelist/article/article.component';
+import { ArticlelistComponent } from './feature/articlelist/articlelist.component';
+import { TitleComponent } from './feature/title/title.component';
+import { ArticleComponent } from './feature/articlelist/article/article.component';
 import { FeatureComponent } from './feature/feature.component';
 
 import { SourceComponent } from './source/source.component';
