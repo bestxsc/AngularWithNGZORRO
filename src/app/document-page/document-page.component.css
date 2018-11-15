@@ -1,12 +1,13 @@
 .mandi{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 70%;
+  margin-left: 14%;
+  margin-right: 14%;
 }
 
 .mandi h1 {
   float:left;
-  margin-top: 2%;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .iicon {
@@ -30,30 +31,28 @@
   text-align: right;
 }
 
-.cardl{
-  width:30%;
+.card-div{
+  height: 194px;
+  width: 30%;
   float: left;
   display:inline-block;
-  margin-right: 3%;
+  max-width: 340px;
+  min-width: 262px;
+  margin: 26px 8px;
+  padding-bottom: 48px;
+  position: relative;
 }
 
-.cardm{
-  width:30%;
-  float: left;
-  display:inline-block;
-  margin-right: 3%;
-}
-
-.cardr{
-  width:30%;
-  float: left;
-  display:inline-block;
-  margin-right: 3%;
-}
-
-.cardx {
+.card-x {
   text-align: center;
   height: 120px;
+}
+
+.ant-divider-horizontal {
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 12px 0;
 }
 
 .menu-button{
@@ -64,3 +63,25 @@
   margin-top: -125px;/* 计算按钮组的实际高度除以2做一个负上边距*/
 }
 
+.menu-anchor{
+  position: fixed;/* 固定 */
+  background-color:#000000;
+  top:50%;/* 离左边50% */
+  left: 50%;/* 离顶部50% */
+  margin-left: 500px;/*计算页面的实际宽度除以2做一个负左边距 */
+  margin-top: -125px;/* 计算按钮组的实际高度除以2做一个负上边距*/
+}
+
+.ant-anchor {
+  font-family: "Monospaced Number","Chinese Quote",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  color: rgba(0,0,0,.65);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 0 2px;
+  list-style: none;
+  position: relative;
+
+}

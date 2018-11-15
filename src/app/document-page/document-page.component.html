@@ -1,11 +1,24 @@
-<button nz-button nzType="primary" (click)="open()" class="menu-button">Menu</button>
-<!--<app-document-button></app-document-button>-->
+<!--<button nz-button nzType="primary" (click)="open()" class="menu-button">Menu</button>
 <nz-drawer [nzClosable]="false" [nzVisible]="visible" [nzPlacement]="placement" (nzOnClose)="close()">
   <app-document-drawer></app-document-drawer>
-</nz-drawer>
+</nz-drawer>-->
+
 <div>
+
+  <div class="menu-anchor">
+    <nz-anchor [nzAffix]="false" [nzShowInkInFixed]="true">
+      <nz-link nzHref="#components-h1"  nzTitle="什么是 Angular？"></nz-link>
+      <nz-link nzHref="#components-h2" nzTitle="基本假设"></nz-link>
+      <nz-link nzHref="#components-h3" nzTitle="反馈"></nz-link>
+      <!--<nz-link nzHref="#API" nzTitle="API">
+        <nz-link nzHref="#anchor-props" nzTitle="nz-anchor"></nz-link>
+        <nz-link nzHref="#link-props" nzTitle="nz-link"></nz-link>
+      </nz-link>-->
+    </nz-anchor>
+  </div>
+
   <div class="mandi">
-    <h1>
+    <h1 id="components-h1">
       什么是 Angular？
     </h1>
     <div class="iicon">
@@ -17,9 +30,9 @@
     </div>
     <nz-divider nzDashed="true" style="background: deepskyblue"></nz-divider>
     <div class="card">
-      <div class="cardl">
+      <div class="card-div">
         <nz-card nzHoverable="true" nzBordered="true">
-          <div class="cardx">
+          <div class="card-x">
             <h2>Angular 走马观花</h2>
             <br>
             极速体验 Angular 的“hello world”应用。
@@ -29,9 +42,9 @@
         </nz-card>
       </div>
 
-      <div class="cardm">
+      <div class="card-div">
         <nz-card nzHoverable="true" nzBordered="true">
-          <div class="cardx">
+          <div class="card-x">
             <h2>开始使用 Angular</h2>
             <br>
             跟随“快速上手”构建你的开发环境。
@@ -41,9 +54,9 @@
         </nz-card>
       </div>
 
-      <div class="cardr">
+      <div class="card-div">
         <nz-card nzHoverable="true" nzBordered="true">
-          <div class="cardx">
+          <div class="card-x">
             <h2>基本原理</h2>
             <br>
             学习 Angular 应用的基本原理。从架构概览开始。
@@ -55,13 +68,13 @@
 
     </div>
     <nz-divider nzDashed="true" style="background: white"></nz-divider>
-    <h1>
-      什么是 Angular？
+    <h1 id="components-h2">
+      基本假设
     </h1>
     <nz-divider nzDashed="true" style="background: white"></nz-divider>
     本文档假设你已经熟悉了 JavaScript 和来自 最新标准 的一些知识，比如 类 和 模块。 下列代码范例都是用最新版本的 TypeScript 写的，利用 类型 实现依赖注入，并使用装饰器来提供元数据。
     <nz-divider nzDashed="true" style="background: white"></nz-divider>
-    <h1>
+    <h1 id="components-h3">
       反馈
     </h1>
     <nz-divider nzDashed="true" style="background: white"></nz-divider>
