@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , ViewEncapsulation  } from '@angular/core';
 
 @Component({
   selector: 'app-document-page',
+  encapsulation: ViewEncapsulation.None,
   templateUrl: './document-page.component.html',
   styleUrls: ['./document-page.component.css']
 })
