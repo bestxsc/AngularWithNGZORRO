@@ -1,3 +1,12 @@
 .app-tag-item{
-  margin-top: 1em;
+  max-width: 920px;
+  margin: 32px auto;
+}
+.container{
+  max-width: 50%;
+  font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size: 14px;
+}
+.img{
+  max-width: 50%;
 }

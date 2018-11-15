@@ -1,6 +1,8 @@
 .angularIcon {
   width: 400px;
   heigtht: 400px;
+  margin-bottom: 8px;
+  padding: 0;
 }
 
 h1 {
@@ -16,8 +18,10 @@ h2 {
   padding-top: 0em;
 }
 
-.paddingText {
-  padding-top: 10em;
+.mainTitle{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .background-sky {

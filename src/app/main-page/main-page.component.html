@@ -1,33 +1,16 @@
 <div nz-row class="top background-sky"></div>
-<div nz-col [nzSpan]="14" [nzOffset]="5">
-  <div nz-row>
-    <div nz-col [nzSpan]="12">
-      <img src="../assets/img/angular.svg" class="angularIcon">
-    </div>
-    <div nz-col [nzSpan]="12" class="paddingText">
-      <h1>一套框架，多种平台</h1>
-      <h1>移动端&桌面端</h1>
-      <button nz-button [nzType]="'primary'" [nzSize]="'large'">快速上手</button>
-    </div>
-  </div>
-</div>
-
-<div nz-row class="message-box">
-  <div nz-col [nzSpan]="12" [nzOffset]="5">
-    <nz-card>
-      <div nz-row>
-        <div nz-col [nzSpan]="6">
-          <img src="../assets/img/angular-connect.png" class="angularConnect">
-        </div>
-        <div nz-col [nzSpan]="12" class="text">
-          <h2>Join us for ANgular COnnect</h2>
-          <h2>November 6th-7th,2018</h2>
-        </div>
-        <div nz-col [nzSpan]="4" style="padding-top: 1.5em;">
-          <button nz-button [nzType]="'primary'" [nzSize]="'large'">LEARN MORE</button>
-        </div>
+<div nz-row>
+  <div nz-col [nzSpan]="14" [nzOffset]="5">
+    <div nz-row class="mainTitle">
+      <div nz-col [nzSpan]="12" class="angularIcon">
+        <img src="../assets/img/angular.svg">
       </div>
-    </nz-card>
+      <div nz-col [nzSpan]="8" class="paddingText ant-col-xs-24 ant-col-sm-24 ant-col-md-8">
+        <h1>一套框架，多种平台</h1>
+        <h1>移动端&桌面端</h1>
+        <button nz-button [nzType]="'primary'" [nzSize]="'large'">快速上手</button>
+      </div>
+    </div>
   </div>
 </div>
 <app-tag-list></app-tag-list>
