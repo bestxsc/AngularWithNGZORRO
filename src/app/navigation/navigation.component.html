@@ -1,8 +1,8 @@
 <div nz-row class="nav-big">
-  <div nz-col nzSpan="18">
-    <div class="navigation">
+  <div nz-col nzSpan="18" class="navigation">
+    <div>
       <div class="logo">
-        <a [routerLink]="['home']"><img src="../assets/img/logo-nav.png"></a>
+        <a [routerLink]="['home']"><img src="../assets/img/logo-nav.png" class="logo-img"></a>
       </div>
       <ul nz-menu [nzMode]="'horizontal'" class="nav-menu">
         <li nz-menu-item><a [routerLink]="['feature']">特性</a></li>
@@ -12,7 +12,6 @@
         <li nz-menu-item><a href="https://blog.angular.io/">博客</a></li>
         <li nz-menu-item><a [routerLink]="['about']">关于中文版</a></li>
       </ul>
-
     </div>
   </div>
 

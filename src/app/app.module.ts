@@ -27,6 +27,7 @@ import { FeatureComponent } from './feature/feature.component';
 import { SourceComponent } from './source/source.component';
 import {DocumentPageComponent} from './document-page/document-page.component';
 import {DocumentDrawerComponent} from './document-drawer/document-drawer.component';
+import { DocumentLayoutComponent } from './document-layout/document-layout.component';
 
 registerLocaleData(zh);
 
@@ -35,10 +36,9 @@ const routes: Routes = [
   { path: 'home', component: MainPageComponent },
   { path: 'metting', component: MettingPageComponent },
   { path: 'about', component: AboutPageComponent},
-  { path: 'document', component: DocumentPageComponent},
+  { path: 'document', component: DocumentLayoutComponent},
   { path: 'feature', component: FeatureComponent},
   { path: 'source', component: SourceComponent}
-
 ];
 
 @NgModule({
@@ -59,7 +59,8 @@ const routes: Routes = [
     FeatureComponent,
     SourceComponent,
     DocumentDrawerComponent,
-    DocumentPageComponent
+    DocumentPageComponent,
+    DocumentLayoutComponent
   ],
   imports: [
     BrowserModule,
