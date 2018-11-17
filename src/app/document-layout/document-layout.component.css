@@ -1,0 +1,19 @@
+ .right-sid{
+   position: fixed;
+   margin-top: 10%;
+   height: 30%;
+ }
+
+ .ant-layout-sider {
+   transition: all .2s;
+   position: relative;
+   background: #edf1f4;
+   min-width: 0;
+ }
+
+ .ant-anchor-wrapper {
+   background-color: #edf1f4;
+   overflow: auto;
+   padding-left: 4px;
+   margin-left: -4px;
+ }
