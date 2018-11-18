@@ -18,11 +18,16 @@
 
   <nz-layout>
     <nz-header class="ant-layout-header">
-      <div class="left-header">
-        <i class="trigger" nz-icon [type]="visible?'menu-unfold':'menu-fold'" (click)="open()"></i>
-      </div>
-      <div class="right-header">
-        <app-navigation></app-navigation>
+      <div nz-row>
+        <div nz-col [nzLg]="1" [nzMd]="4" [nzSm]="4" [nzXs]="4">
+          <i class="trigger" nz-icon [type]="visible?'menu-unfold':'menu-fold'" (click)="open()"></i>
+        </div>
+        <div nz-col [nzLg]="2" [nzMd]="6" [nzSm]="6" [nzXs]="6"  class="logo">
+          <a [routerLink]="['home']"><img src="../assets/img/logo-nav.png" class="logo-img"></a>
+        </div>
+        <div nz-col [nzLg]="18" [nzMd]="10" [nzSm]="4" [nzXs]="4">
+          <app-navigation></app-navigation>
+        </div>
       </div>
     </nz-header>
     <nz-content class="ant-layout-content">

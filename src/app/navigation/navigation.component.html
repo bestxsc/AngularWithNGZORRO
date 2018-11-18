@@ -1,26 +1,24 @@
 <div nz-row class="nav-big">
-  <div nz-col nzSpan="18" class="navigation">
-    <div>
-      <div class="logo">
-        <a [routerLink]="['home']"><img src="../assets/img/logo-nav.png" class="logo-img"></a>
+  <div nz-col [nzXs]="0" [nzSm]="0" [nzMd]="16" class="navigation">
+    <div nz-row>
+      <div nz-col [nzLg] = "16" [nzMd]="0" [nzSm]="0" [nzXs]="0">
+        <ul nz-menu [nzMode]="'horizontal'" class="nav-menu">
+          <li nz-menu-item><a [routerLink]="['feature']">特性</a></li>
+          <li nz-menu-item><a [routerLink]="['document']">文档</a></li>
+          <li nz-menu-item><a [routerLink]="['source']">资源</a></li>
+          <li nz-menu-item><a [routerLink]="['metting']">会议</a></li>
+          <li nz-menu-item><a href="https://blog.angular.io/">博客</a></li>
+          <li nz-menu-item><a [routerLink]="['about']">关于中文版</a></li>
+        </ul>
       </div>
-      <ul nz-menu [nzMode]="'horizontal'" class="nav-menu">
-        <li nz-menu-item><a [routerLink]="['feature']">特性</a></li>
-        <li nz-menu-item><a [routerLink]="['document']">文档</a></li>
-        <li nz-menu-item><a [routerLink]="['source']">资源</a></li>
-        <li nz-menu-item><a [routerLink]="['metting']">会议</a></li>
-        <li nz-menu-item><a href="https://blog.angular.io/">博客</a></li>
-        <li nz-menu-item><a [routerLink]="['about']">关于中文版</a></li>
-      </ul>
     </div>
   </div>
-
-  <div nz-col nzSpan="6">
+  <div nz-col [nzXs]="2" [nzSm]="2" [nzMd]="2" [nzLg]="6" [nzOffset]="2" class="right-navigation">
     <div nz-row>
-      <div class="nav-right-search" nz-col [nzSpan]="18">
+      <div class="nav-right-search" nz-col [nzXs]="0" [nzSm]="0" [nzMd]="0" [nzLg]="18">
         <input nz-input placeholder="搜索" nzSize="large">
       </div>
-      <div class="nav-right-icon" nz-col [nzSpan]="2">
+      <div class="nav-right-icon" nz-col [nzXs]="2" [nzSm]="2" [nzMd]="1" [nzLg]="1">
         <ul nz-menu [nzMode]="'horizontal'">
           <li nz-menu-item>
             <a href="https://twitter.com/angular" title="Twitter">

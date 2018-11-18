@@ -1,3 +1,13 @@
+.logo {
+  float: left;
+}
+
+.logo-img{
+  margin-top: -35px;
+  height: 30px;
+}
+
+
 nz-header {
   height: 74px;
   letter-spacing: 3px;
@@ -45,7 +55,7 @@ nz-header {
 }
 
 :host ::ng-deep .trigger:hover {
-  color: #1890ff;
+  color: #1976d2;
 }
 
 :host ::ng-deep .logo {

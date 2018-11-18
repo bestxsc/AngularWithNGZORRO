@@ -9,7 +9,6 @@ export class AppComponent {
   title = 'AngularWithNGZORRO';
   visible = false;
   placement = 'left';
-
   open(): void {
     this.visible = true;
   }
