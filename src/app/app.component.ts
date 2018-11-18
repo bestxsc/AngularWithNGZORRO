@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularWithNGZORRO';
+  buttonvisible = true;
   visible = false;
   placement = 'left';
   open(): void {

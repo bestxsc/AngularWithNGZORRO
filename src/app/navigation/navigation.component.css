@@ -1,3 +1,12 @@
+.logo {
+  float: left;
+}
+
+.logo-img{
+  margin-top: -35px;
+  height: 30px;
+}
+
 .nav-right-icon {
   width: 24px;
   heigth: 24px;
