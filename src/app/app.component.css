@@ -45,7 +45,7 @@ nz-header {
 }
 
 :host ::ng-deep .trigger:hover {
-  color: #1976d2;
+  color: #dbdbdb;
 }
 
 :host ::ng-deep .logo {
